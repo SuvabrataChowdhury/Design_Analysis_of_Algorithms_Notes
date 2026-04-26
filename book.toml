@@ -5,3 +5,4 @@ language = "en"
 
 [output.html]
 git-repository-url = "https://github.com/SuvabrataChowdhury/Design_Analysis_of_Algorithms_Notes.git"
+site-url = "/Design_Analysis_of_Algorithms_Notes/"
