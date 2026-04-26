@@ -1,7 +1,7 @@
 [book]
-title = "User Guide"
+title = "Design and Analysis of Algorithms"
 authors = ["Suvabrata Chowdhury"]
 language = "en"
 
 [output.html]
-git-repository-url = "https://github.com/SuvabrataChowdhury/mdbook-deployable-template"
+git-repository-url = "https://github.com/SuvabrataChowdhury/Design_Analysis_of_Algorithms_Notes.git"
