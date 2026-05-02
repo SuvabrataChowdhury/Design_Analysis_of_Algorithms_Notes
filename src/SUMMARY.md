@@ -2,7 +2,7 @@
 
 [Introduction](./introduction.md)
 
-- [Introduction to Algorithms](./introduction-to-algorithms/README.md)
-    - [Algorithmic Specifications](./introduction-to-algorithms/algorithmic-specifications.md)
-    - [Operations on variables](./introduction-to-algorithms/operations-on-variables.md)
+- [Analysis of Algorithms](./analysis-of-algorithms/README.md)
+    - [Algorithmic Specifications](./analysis-of-algorithms/algorithmic-specifications.md)
+    - [Operations on variables](./analysis-of-algorithms/operations-on-variables.md)
 
