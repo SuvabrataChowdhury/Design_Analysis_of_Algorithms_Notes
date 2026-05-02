@@ -1,15 +1,46 @@
+<!-- KaTeX CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 
+<!-- pseudocode.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+
+<!-- KaTeX JS -->
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+
+<!-- KaTeX auto-render -->
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+<!-- pseudocode.js -->
+<script defer src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+
+  // ✅ Render LaTeX with KaTeX
   renderMathInElement(document.body, {
     delimiters: [
-      {left: "$$", right: "$$", display: true},
-      {left: "$", right: "$", display: false}
-    ]
+      { left: "$$", right: "$$", display: true },
+      { left: "$", right: "$", display: false }
+    ],
+    throwOnError: false
   });
+
+  // ✅ Render pseudocode blocks
+  document.querySelectorAll("pre code.language-pseudocode").forEach((block) => {
+    const parent = block.parentElement;
+    const code = block.textContent;
+
+    const container = document.createElement("div");
+
+    try {
+      pseudocode.render(code, container, {
+        lineNumber: true
+      });
+      parent.replaceWith(container);
+    } catch (err) {
+      console.error("Pseudocode rendering error:", err);
+    }
+  });
+
 });
 </script>
