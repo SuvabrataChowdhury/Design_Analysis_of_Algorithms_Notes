@@ -13,6 +13,9 @@
 
     The syntax is,
 
-    \\[ result = var1 \circ var2 \\]
+    $$
+    result = val1 \circ val2
+    $$
 
-    where \\( \circ \in \{\} \\)
+
+    where $\circ \in$ `{+, -, *, ^, %}`

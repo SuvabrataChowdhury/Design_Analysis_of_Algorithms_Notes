@@ -7,7 +7,7 @@ An algorithm is written with the following constructs. These are almost similar 
 4. **Datatype:** Data-type of a variable is never explicitly defined. The datatype can be inferred from the context in which variables are used. The scope of the variable (local or global) can be inferred from its context.
     
     We assume simple datatype are integer, reals (floats and doubles), boolean and char. Compound datatypes can be formed with records, the structure is,
-    ```
+    ```pseudocode
     <structure_name> := record {
         <data type 1> <data 1>;
         <data type 2> <data 2>;
