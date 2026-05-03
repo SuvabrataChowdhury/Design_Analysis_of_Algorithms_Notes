@@ -33,8 +33,8 @@ Though the invention of high-level languages made programming more accessible, t
 
 ## The Need for Formal Notation
 
-If programs must be written in a specific language's syntax before they can be studied, then properties like performance and design patterns become hard to reason about in general. A language-independent description is needed.
+If programs must be written in a specific language's syntax before they can be studied, then properties like performance and design patterns become hard to reason about in general. Thus, a language-independent description is needed.
 
-This is where the study of **Algorithms** begins. An **algorithm** is a finite, ordered sequence of well-defined instructions that terminates and accomplishes a particular task. Algorithms are expressed in *pseudocode* — a structured, language-independent notation that captures logic clearly without being tied to any particular programming language's syntax.
+This is where the study of **Algorithms** begins. An **algorithm** is a finite, ordered sequence of well-defined instructions that if followed, accomplishes a particular task. Algorithms are expressed in *pseudocode* — a structured, language-independent notation that captures logic clearly without being tied to any particular programming language's syntax.
 
 By studying algorithms through pseudocode, their **performance** can be analyzed with mathematical models such as *time complexity* (how runtime scales with input size) and *space complexity* (how memory usage scales with input size). Recurring problem-solving patterns can also be identified to help **design** efficient algorithms for new problems.
