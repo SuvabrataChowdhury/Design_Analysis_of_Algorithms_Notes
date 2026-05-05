@@ -1,6 +1,6 @@
 # Structure of Algorithms
 
-Having defined what an algorithm is and its essential properties, we now look at how to express one precisely. Algorithmic notation can be considered as a language — it has its own keywords (such as `Input`, `Ensure`, `State`) and structural rules for how instructions are ordered and numbered. The examples below introduce this notation and show how it relates to the properties defined in the previous chapter.
+Having defined what an algorithm is and its essential properties, we now look at how to express one precisely. Algorithmic notation can be considered as a language — it has its own keywords and structural rules for how instructions are ordered and numbered. The examples below introduce this notation and show how it relates to the properties defined in the previous chapter.
 
 ## Example algorithms
 
@@ -18,14 +18,14 @@ Lets start with an algorithm that writes `Hello World` to understand it's generi
 ```
 
 Now if we follow the instruction we will be instructed to write the string `Hello World`. From this example alone the following can be seen,
-- The text `Algorithm 1` to denote that it is an algorithm. The numbering is given for referring purpose and is usually optional.
+- The text `Algorithm 1` is used to denote that it is an algorithm. The numbering is given for referring purpose and is usually optional.
 - The algorithm has a name `Write`. It will be used to refer to the algorithm.
-- It has a numbered line containing the instruction. The number is used mostly to identify at which instruction we are currently at while the algorithm is executing. 
+- It has a numbered line containing an instruction. The number is used mostly to identify at which instruction we are currently, while the algorithm is executing. 
 - The instruction itself.
 
 **Example 2:**
 
-Many times, it is required to store quantities or data in some place for future reusability to solve a problem. To take an example consider an algorithm which swaps given two numbers.
+Many times, it is required to store quantities or data in some place for future reusability to solve a problem. To take an example, consider an algorithm which swaps given two numbers.
 
 ```pseudocode
 \begin{algorithm}
@@ -40,9 +40,9 @@ Many times, it is required to store quantities or data in some place for future 
 \end{algorithm}
 ```
 
-Here, $num1$ and $num2$ are externally supplied to **Algorithm 2** — a direct instance of the **Input** property from the previous chapter.
+Here, $num1$ and $num2$ are externally supplied to **Algorithm 2** — a direct instance of the **Input** property from the [previous chapter](index.html#properties-of-algorithms).
 
-If we follow the instructions line by line, one by one, we see at the end of line 3, contents of $num1$ ends up in $num2$ and vice-versa. Tracing each variable at each step makes this clear. Assuming $num1 = a$ and $num2 = b$ initially:
+If we follow the instructions line by line, one after the other, we see at the end of line 3, contents of $num1$ ends up in $num2$ and vice-versa. Tracing each variable at each step makes this clear. Assuming $num1 = a$ and $num2 = b$ initially:
 
 | Step | $temp$ | $num1$ | $num2$ |
 |---|---|---|---|
@@ -85,7 +85,7 @@ $$
             - $\text{Ensure}$: The condition that the algorithm guarantees to be true on the output. If output is not present then the algorithm has some explicit side-effect and the ensure block describes it instead — corresponding to the **Output** property established earlier: an algorithm that returns nothing must have an observable side-effect. For example, Algorithm 2 (Swap) produces no output value, so its Ensure block describes the side effect instead.
 
         <!-- TODO: Add citations with relevant plugins. For both preconditions and postconditions add this reference: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.cs.cmu.edu/~aldrich/courses/15-819O-13sp/resources/hoare-logic.pdf-->
-
+    
     - **Algorithm Instructions:** The actual lines that tell what to do based on the **Preconditions**. For the **Definiteness** property to hold, each instruction must be clear and unambiguous. Instructions can be sequential (one after another), conditional (do something only if a condition holds), or iterative (repeat something). After following all the instructions the Algorithm ends with satisfying the **Postconditions**. Often these instructions are also called **Statements** and in this text we use it interchangeably.
 
 In this text we follow these mentioned conventions.
