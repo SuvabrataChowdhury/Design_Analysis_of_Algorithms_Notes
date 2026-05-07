@@ -8,7 +8,7 @@
     - [Structure of algorithms](./foundations-of-algorithms/structure-of-algorithms.md)
     - [Elements of Algorithmic Notation](./foundations-of-algorithms/elements-of-algorithmic-notation.md)
     - [Common Data-types](./foundations-of-algorithms/common-data-types.md)
-    - [Operators and Operands](./foundations-of-algorithms/operations-on-variables.md) <!-- TODO: Modify this chapter -->
+    - [Operators and Operands](./foundations-of-algorithms/operators-and-operands.md) <!-- TODO: Modify this chapter -->
     - [Control Flow of a Program]()
     - [Functions and Control Flow revisited]()
 
