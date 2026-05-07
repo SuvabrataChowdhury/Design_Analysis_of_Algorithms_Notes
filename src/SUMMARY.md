@@ -1,6 +1,20 @@
 # Summary
 
-- [Introduction to Algorithms](./introduction-to-algorithms/README.md)
-    - [Algorithmic Specifications](./introduction-to-algorithms/algorithmic-specifications.md)
-    - [Operations on variables](./introduction-to-algorithms/operations-on-variables.md)
+# Introduction to Algorithms
 
+- [Introduction](./introduction.md) <!-- TODO: better name for it-->
+
+- [Foundations of Algorithms](./foundations-of-algorithms/README.md)
+    - [Structure of algorithms](./foundations-of-algorithms/structure-of-algorithms.md)
+    - [Elements of Algorithmic Notation](./foundations-of-algorithms/elements-of-algorithmic-notation.md)
+    - [Common Data-types](./foundations-of-algorithms/common-data-types.md)
+    - [Operators and Operands](./foundations-of-algorithms/operators-and-operands.md) <!-- TODO: Modify this chapter -->
+    - [Control Flow of a Program]()
+    - [Functions and Control Flow revisited]()
+
+- [Example Algorithms]()
+
+# Performance Analysis of an Algorithm
+
+
+# Algorithm Design strategies

@@ -1,5 +1,50 @@
-# Operations on variables
+# Operators and Operands
 
+**Operators** are one of the fundamental ways to manipulate data. In algorithms and computer programs, **Operators** are instructions which does some computation on a given data. The data on which an operator operates is called **Operand**.
+
+## Arity of an operator
+
+Arity of an operator refers to the number of operand the operator takes. An **n-ary** operator operates on **n** operands.
+
+## Symbols table
+
+Throughout this text, as a shorthand notation, many logical symbols will be used. It is important to understand the meanings of such symbols.
+
+|Symbol|Meaning|
+|:---:|:---:|
+|$:=$|is defined as|
+|$\gets$|is assigned to|
+|$=$|Equals|
+|$\ne$|Not Equals|
+|$\gt$|Greater Than|
+|$\ge$|Greater Than and Equals|
+|$\lt$|Less Than|
+|$\le$|Less Than and Equals|
+|$\cup$|Union|
+|$\cap$|Intersection|
+|$\land$|And|
+|$\lor$|Or|
+|$\lnot$|Not|
+|$\in$|In|
+|$\mathbb{R}$|Set Containing all Real numbers|
+|$\mathbb{R}^+$|Set Containing all Positive Real numbers|
+|$\mathbb{R}^-$|Set Containing all Negative Real numbers|
+|$\mathbb{Z}$|Set Containing all Integers|
+|$\mathbb{Z}^+$|Set Containing all positive Integers|
+|$\mathbb{Z}^-$|Set Containing all negative Integers|
+
+<!-- TODO: Elaborate the types of operators-->
+## Types of Operators
+
+|Operator|Applicable Operands|Generic Form|Examples|
+|---|---|---|---|
+|Assignment| Any data-type | $x \gets y$, where $x$ is an identifier and $y$ is the value of any data type.|
+|Arithmetic| All numeric type| $x \circ y$, where $x,y \in \mathbb{R}$ and $\circ \in$ `{+, -, *, /, ^}`|
+|Logical| Boolean type | $x \circ y$, where $x,y \in \\{True, False\\}$ and $\circ \in \\{ \land, \lor, \lnot \\}$|
+|Relational| Any numeric type | $x \circ y$, where $x,y \in \mathbb{R}$ and $\circ \in \\{ =, \ne, \gt, \ge, \lt, \le \\}$
+|Set| Set types | $x \circ y$, where $x,y$ are sets and $\circ \in \\{ \cup, \cap, - \\}$|
+
+<!-- 
 1. **Assignment:** The value of one variable or a constant or an expression can be assigned to another variable.
     
     The syntax is,
@@ -65,4 +110,4 @@
             \ENDPROCEDURE
         \end{algorithmic}
     \end{algorithm}
-    ```
+    ``` -->
