@@ -11,6 +11,7 @@ This default control flow is too restrictive. For example, lets take the followi
     \caption{Bad Sum of Array elements}
     \begin{algorithmic}
         \input $arr$, the array of 10 items
+        \output $sum$ of all 10 items
         \state $sum \gets arr[0] + arr[1] + arr[2] + \cdots + arr[9]$
         \state \return $sum$
     \end{algorithmic}
