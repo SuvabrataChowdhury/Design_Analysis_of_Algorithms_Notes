@@ -1,5 +1,11 @@
 # Summary
 
+[Prefix]()
+
+---
+
+[Introduction]()
+
 # Introduction to Algorithms
 
 - [Introduction](./introduction.md) <!-- TODO: better name for it-->
@@ -15,13 +21,101 @@
         - [Bit-wise Operator]()
         - [Relational Operator]()
     - [Control flow of an Algorithm](./foundations-of-algorithms/control-flow/README.md)
-        - [Conditional Statements]()
+        - [Conditional Statements](./foundations-of-algorithms/control-flow/conditional-statements.md)
+            - [Examples]()
         - [Iterative Statements]()
+            - [Examples]()
         - [Function or Procedure call]()
-
+            - [Examples]()
+            - [Recursion]()
 - [Example Algorithms]()
 
 # Performance Analysis of an Algorithm
 
+- [Introduction]()
+- [Asymptotic Notations]()
+    - [Big Notations]()
+        - [Big 'Oh']()
+        - [Big 'Omega']()
+        - [Big 'Theta']()
+    - [Little Notations]()
+        - [Little 'Oh']()
+        - [Little 'Omega']()
+- [Recurrence Relations]()
+    - [Substitution Method]()
+    - [Examples]()
+- [Finding Correct Bounds of Functions]()
+    - [Examples]()
+- [Finding Complexity of an Algorithm]()
+    - [Examples]()
+    - [Finding the Time Complexity of Recursive Fibonacci Sequence]()
+
+# Useful Data Structures
+
+- [Introduction]()
+    - [Abstract Data Type]()
+- [Linear Data Structures]()
+    - [Array]()
+        - [Finding an Element]()
+        - [Naive Sorting]()
+            - [Bubble Sort]()
+            - [Selection Sort]()
+            - [Insertion Sort]()
+    - [Stack]()
+        - [Application: Valid bracket sequence]()
+    - [Queue]()
+- [Non-Linear Data Structures]()
+    - [Disjoint Set]()
+    - [Graph]()
+        - [Depth First Search (DFS) Traversal]()
+        - [Breadth First Search (BFS) Traversal]()
+    - [Heap]()
+        - [Application: Heap Sort]()
 
 # Algorithm Design strategies
+
+- [Introduction]()
+- [Recursive Pattern]()
+    - [The Towers of Hanoi]()
+        - [Complexity Calculation]()
+    - [Permutation Generator]()
+        - [Complexity Calculation]()
+- [Divide and Conquer]()
+    - [Finding Maximum Element within Array]()
+        - [Complexity Calculation]()
+    - [Binary Search]()
+        - [Complexity Calculation]()
+    - [Interpolation Search]()
+        - [Complexity Calculation]()
+    - [Merge Sort]()
+        - [Complexity Calculation]()
+    - [Quick Sort]()
+        - [Complexity Calculation]()
+- [Greedy]()
+    - [Fractional Knapsack Problem]()
+    - [Activity Selection Problem]()
+    - [Job Sequencing with Deadline]()
+    - [Minimum cost Spanning Tree (MST) Problem]()
+        - [Kruskal's Algorithm]()
+        - [Prim's Algorithm]()
+- [Dynamic Programming]()
+    - [Fibonacci Sequence]()
+        - [Recursive Variant]()
+        - [Optimized Iterative Variant]()
+    - [0/1 Knapsack Problem]()
+    - [Single Source Shortest Path of a weighted graph]()
+        - [Dijkstra's Algorithm]()
+        - [Bellman-Ford Algorithm]()
+    - [All Pair Shortest Path of a weighted graph]()
+    - [Matrix Chain Multiplication]()
+
+- [Backtracking]()
+    - [The N-Queen Problem]()
+    - [Hamiltonian Cycle Detection]()
+    - [The Graph Coloring Problem]()
+
+
+---
+
+[References]()
+[Credits]()
