@@ -88,4 +88,6 @@ $$
     
     - **Algorithm Instructions:** The actual lines that tell what to do based on the **Preconditions**. For the **Definiteness** property to hold, each instruction must be clear and unambiguous. Instructions can be sequential (one after another), conditional (do something only if a condition holds), or iterative (repeat something). After following all the instructions the Algorithm ends with satisfying the **Postconditions**. Often these instructions are also called **Statements** and in this text we use it interchangeably.
 
+    > **Note:** A set of **Statements** is called a **Block**.
+
 In this text we follow these mentioned conventions.

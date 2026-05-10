@@ -22,8 +22,11 @@
         - [Relational Operator]()
     - [Control flow of an Algorithm](./foundations-of-algorithms/control-flow/README.md)
         - [Conditional Statements](./foundations-of-algorithms/control-flow/conditional-statements.md)
+            - [Examples]()
         - [Iterative Statements]()
+            - [Examples]()
         - [Function or Procedure call]()
+            - [Examples]()
             - [Recursion]()
 - [Example Algorithms]()
 
