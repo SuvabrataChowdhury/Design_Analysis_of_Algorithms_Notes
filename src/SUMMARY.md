@@ -9,8 +9,15 @@
     - [Elements of Algorithmic Notation](./foundations-of-algorithms/elements-of-algorithmic-notation.md)
     - [Common Data-types](./foundations-of-algorithms/common-data-types.md)
     - [Operators and Operands](./foundations-of-algorithms/operators-and-operands.md) <!-- TODO: Modify this chapter -->
-    - [Control Flow of a Program]()
-    - [Functions and Control Flow revisited]()
+        - [Assignment Operator]()
+        - [Arithmetic Operator]()
+        - [Logical Operator]()
+        - [Bit-wise Operator]()
+        - [Relational Operator]()
+    - [Control flow of an Algorithm](./foundations-of-algorithms/control-flow/README.md)
+        - [Conditional Statements]()
+        - [Iterative Statements]()
+        - [Function or Procedure call]()
 
 - [Example Algorithms]()
 
