@@ -24,4 +24,4 @@ Consider one more problem, given an integer and we are to return "Fizz" if it's 
 
 It is impossible to solve this problem with the default control flow.
 
-This is why there exists instructions like **Conditional**, **Iterative** and **Procedure Call** to make this default control flow **Jump** to another instruction which makes this algorithmic notation **Turing Complete**.
+This is why there exists instructions like **Conditional**, **Iterative** and **Procedure Call** to make this default control flow **jump** to another instruction which makes this algorithmic notation **Turing Complete**.
