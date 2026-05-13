@@ -23,12 +23,12 @@
     - [Control flow of an Algorithm](./introduction-to-algorithms/foundations-of-algorithms/control-flow/README.md)
         - [Conditional Statements](./introduction-to-algorithms/foundations-of-algorithms/control-flow/conditional-statements.md)
             - [Examples]()
-        - [Iterative Statements]()
+        - [Iterative Statements](./introduction-to-algorithms/foundations-of-algorithms/control-flow/iterative-statements.md)
             - [Examples]()
         - [Function or Procedure call]()
             - [Examples]()
             - [Recursion]()
-- [Example Algorithms]()
+- [Example Algorithms](./introduction-to-algorithms/foundations-of-algorithms/control-flow/example-algorithms.md)
 
 # Performance Analysis of an Algorithm
 
