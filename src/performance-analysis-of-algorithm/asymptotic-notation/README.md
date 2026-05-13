@@ -9,9 +9,14 @@ Asymptotic notations define a bound on a function for large input. It can be use
 The types and different notations are listed below,
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart TD
+    asymptotic["Asymptotic Notations"] --- big["Big Notations"]
+    asymptotic["Asymptotic Notations"] --- little["Little Notations"]
+
+    big --- big-oh["Big 'Oh' $$(\mathcal{O})$$"]
+    big --- big-omega["Big 'Omega' $$(\Omega)$$"]
+    big --- big-theta["Big 'Theta' $$(\Theta)$$"]
+
+    little --- little-oh["Little 'Oh' $$(\mathcal{o})$$"]
+    little --- little-omega["Little 'Omega' $$(\omega)$$"]
 ```
