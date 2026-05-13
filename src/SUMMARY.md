@@ -32,8 +32,8 @@
 
 # Performance Analysis of an Algorithm
 
-- [Introduction]()
-- [Asymptotic Notations]()
+- [Introduction](./performance-analysis-of-algorithm/introduction.md)
+- [Asymptotic Notations](./performance-analysis-of-algorithm/asymptotic-notation/README.md)
     - [Big Notations]()
         - [Big 'Oh']()
         - [Big 'Omega']()
