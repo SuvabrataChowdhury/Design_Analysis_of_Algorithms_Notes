@@ -15,9 +15,7 @@ It is read as $f(n)$ is $\mathcal{O}(g(n))$. This means that, $f(n) \in \mathcal
 
 ## Example
 
-
-![Big 'Oh' function](image.png)
-<!-- <iframe scrolling="no" title="Big Oh " src="https://www.geogebra.org/material/iframe/id/vdvdz2mj/width/800/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/true/asb/true/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="600px" style="border:0px;"> </iframe> -->
+<div data-ggb-id="rktby5df"></div>
 
 Here, from the definition of Big 'Oh', we can say that $f(n) = \mathcal{O}(g(n))$ as after the point $P_5$, $f(n)$ is always bounded from above by f(n) [which can never happen in reality as $f$ is not a monotonically increasing function] then it will never exceed $g(n)$ after point $P_5$ i.e., $g$ is $f$'s **maximum upper bound**.
 
