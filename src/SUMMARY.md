@@ -37,7 +37,7 @@
     - [Big Notations]()
         - [Big 'Oh' $(\mathcal{O})$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-oh.md)
         - [Big 'Omega' $(\Omega)$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-omega.md)
-        - [Big 'Theta' $(\Theta)$]()
+        - [Big 'Theta' $(\Theta)$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-theta.md)
     - [Little Notations]()
         - [Little 'Oh' $(\mathcal{o})$]()
         - [Little 'Omega' $(\omega)$]()
