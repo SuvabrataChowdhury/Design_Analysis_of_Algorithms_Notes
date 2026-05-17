@@ -39,7 +39,7 @@
         - [Big 'Omega' $(\Omega)$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-omega.md)
         - [Big 'Theta' $(\Theta)$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-theta.md)
     - [Little Notations]()
-        - [Little 'Oh' $(\mathcal{o})$]()
+        - [Little 'Oh' $(\mathcal{o})$](./performance-analysis-of-algorithm/asymptotic-notation/little-notations/little-oh.md)
         - [Little 'Omega' $(\omega)$]()
 - [Recurrence Relations]()
     - [Substitution Method]()
