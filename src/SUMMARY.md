@@ -32,6 +32,8 @@
 
 # Performance Analysis of an Algorithm
 
+<!-- TODO: Add The famous common functions graphs comparison -->
+
 - [Introduction](./performance-analysis-of-algorithm/introduction.md)
 - [Asymptotic Notations](./performance-analysis-of-algorithm/asymptotic-notation/README.md)
     - [Big Notations]()
@@ -45,7 +47,7 @@
     - [Substitution Method]()
     - [Examples]()
 - [Finding Correct Bounds of Functions](./performance-analysis-of-algorithm/asymptotic-notation/bounds-of-functions/README.md)
-    - [Examples]()
+    - [Examples](./performance-analysis-of-algorithm/asymptotic-notation/bounds-of-functions/examples.md)
 - [Finding Complexity of an Algorithm]()
     - [Examples]()
     - [Finding the Time Complexity of Recursive Fibonacci Sequence]()
