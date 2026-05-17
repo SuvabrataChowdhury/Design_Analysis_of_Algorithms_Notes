@@ -8,44 +8,46 @@
 
 # Introduction to Algorithms
 
-- [Introduction](./introduction.md) <!-- TODO: better name for it-->
+- [Introduction](./introduction-to-algorithms/introduction.md) <!-- TODO: better name for it-->
 
-- [Foundations of Algorithms](./foundations-of-algorithms/README.md)
-    - [Structure of algorithms](./foundations-of-algorithms/structure-of-algorithms.md)
-    - [Elements of Algorithmic Notation](./foundations-of-algorithms/elements-of-algorithmic-notation.md)
-    - [Common Data-types](./foundations-of-algorithms/common-data-types.md)
-    - [Operators and Operands](./foundations-of-algorithms/operators-and-operands.md) <!-- TODO: Modify this chapter -->
+- [Foundations of Algorithms](./introduction-to-algorithms/foundations-of-algorithms/README.md)
+    - [Structure of algorithms](./introduction-to-algorithms/foundations-of-algorithms/structure-of-algorithms.md)
+    - [Elements of Algorithmic Notation](./introduction-to-algorithms/foundations-of-algorithms/elements-of-algorithmic-notation.md)
+    - [Common Data-types](./introduction-to-algorithms/foundations-of-algorithms/common-data-types.md)
+    - [Operators and Operands](./introduction-to-algorithms/foundations-of-algorithms/operators-and-operands.md) <!-- TODO: Modify this chapter -->
         - [Assignment Operator]()
         - [Arithmetic Operator]()
         - [Logical Operator]()
         - [Bit-wise Operator]()
         - [Relational Operator]()
-    - [Control flow of an Algorithm](./foundations-of-algorithms/control-flow/README.md)
-        - [Conditional Statements](./foundations-of-algorithms/control-flow/conditional-statements.md)
+    - [Control flow of an Algorithm](./introduction-to-algorithms/foundations-of-algorithms/control-flow/README.md)
+        - [Conditional Statements](./introduction-to-algorithms/foundations-of-algorithms/control-flow/conditional-statements.md)
             - [Examples]()
-        - [Iterative Statements]()
+        - [Iterative Statements](./introduction-to-algorithms/foundations-of-algorithms/control-flow/iterative-statements.md)
             - [Examples]()
         - [Function or Procedure call]()
             - [Examples]()
             - [Recursion]()
-- [Example Algorithms]()
+- [Example Algorithms](./introduction-to-algorithms/foundations-of-algorithms/control-flow/example-algorithms.md)
 
 # Performance Analysis of an Algorithm
 
-- [Introduction]()
-- [Asymptotic Notations]()
+<!-- TODO: Add The famous common functions graphs comparison -->
+
+- [Introduction](./performance-analysis-of-algorithm/introduction.md)
+- [Asymptotic Notations](./performance-analysis-of-algorithm/asymptotic-notation/README.md)
     - [Big Notations]()
-        - [Big 'Oh']()
-        - [Big 'Omega']()
-        - [Big 'Theta']()
+        - [Big 'Oh' $(\mathcal{O})$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-oh.md)
+        - [Big 'Omega' $(\Omega)$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-omega.md)
+        - [Big 'Theta' $(\Theta)$](./performance-analysis-of-algorithm/asymptotic-notation/big-notations/big-theta.md)
     - [Little Notations]()
-        - [Little 'Oh']()
-        - [Little 'Omega']()
+        - [Little 'Oh' $(\mathcal{o})$](./performance-analysis-of-algorithm/asymptotic-notation/little-notations/little-oh.md)
+        - [Little 'Omega' $(\omega)$](./performance-analysis-of-algorithm/asymptotic-notation/little-notations/little-omega.md)
 - [Recurrence Relations]()
     - [Substitution Method]()
     - [Examples]()
-- [Finding Correct Bounds of Functions]()
-    - [Examples]()
+- [Finding Correct Bounds of Functions](./performance-analysis-of-algorithm/asymptotic-notation/bounds-of-functions/README.md)
+    - [Examples](./performance-analysis-of-algorithm/asymptotic-notation/bounds-of-functions/examples.md)
 - [Finding Complexity of an Algorithm]()
     - [Examples]()
     - [Finding the Time Complexity of Recursive Fibonacci Sequence]()

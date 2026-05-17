@@ -16,6 +16,28 @@
 <!-- site icon-->
 <link rel="icon" href="/theme/favicon.ico">
 
+<!-- GeoGebra API -->
+<script defer src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+<style>
+  .ggb-container { width: 100%; max-width: 100%; }
+</style>
+
+<!-- Mermaid -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false });
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("pre code.language-mermaid").forEach((block) => {
+      const source = block.textContent;
+      const container = document.createElement("div");
+      container.classList.add("mermaid");
+      container.textContent = source;
+      block.parentElement.replaceWith(container);
+    });
+    mermaid.run();
+  });
+</script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -44,6 +66,23 @@ document.addEventListener("DOMContentLoaded", function () {
     } catch (err) {
       console.error("Pseudocode rendering error:", err);
     }
+  });
+
+  // ✅ Initialize GeoGebra applets
+  document.querySelectorAll("div[data-ggb-id]").forEach((div, i) => {
+    if (!div.id) div.id = "ggb-auto-" + i;
+    div.classList.add("ggb-container");
+    const applet = new GGBApplet({
+      material_id: div.getAttribute("data-ggb-id"),
+      scaleContainerClass: "ggb-container",
+      autoHeight: true,
+      width: 800,
+      height: 500,
+      showToolBar: false,
+      showAlgebraInput: false,
+      showMenuBar: false,
+    }, true);
+    applet.inject(div.id);
   });
 
 });
