@@ -16,7 +16,7 @@ It is read as, $f(n)$ is **Big Omega** of $g(n)$ which means that $f(n) \in \Ome
 
 ## Example
 
-<!-- Insert Image here -->
+<div data-ggb-id="uwxnupm7"></div>
 
 Here, from the definition of Big 'Omega' we can say that $f(n) = \Omega(g(n))$ as after the point $P_5$, $f(n)$ is always bounded from below by $g(n)$. Therefore, if an algorithm's time is represented using $f(n)$ [which can never happen] then it will not be lower than $g(n)$ after $P_5$, i.e., $g$ is $f$'s **lower bound**.
 
