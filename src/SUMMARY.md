@@ -48,8 +48,8 @@
     - [Examples]()
 - [Finding Correct Bounds of Functions](./performance-analysis-of-algorithm/asymptotic-notation/bounds-of-functions/README.md)
     - [Examples](./performance-analysis-of-algorithm/asymptotic-notation/bounds-of-functions/examples.md)
-- [Finding Complexity of an Algorithm]()
-    - [Examples]()
+- [Finding Complexity of an Algorithm](./performance-analysis-of-algorithm/asymptotic-notation/finding-complexity-of-algorithm/README.md)
+    - [Examples](./performance-analysis-of-algorithm/asymptotic-notation/finding-complexity-of-algorithm/examples.md)
     - [Finding the Time Complexity of Recursive Fibonacci Sequence]()
 
 # Useful Data Structures
