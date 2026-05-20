@@ -45,7 +45,7 @@
         - [Little 'Omega' $(\omega)$](./performance-analysis-of-algorithm/asymptotic-notation/little-notations/little-omega.md)
 - [Recurrence Relations](./performance-analysis-of-algorithm/recurrence-relations/README.md)
     - [Substitution Method](./performance-analysis-of-algorithm/recurrence-relations/substitution-method/README.md)
-    - [Examples]()
+        - [Examples](./performance-analysis-of-algorithm/recurrence-relations/substitution-method/examples.md)
 - [Finding Correct Bounds of Functions](./performance-analysis-of-algorithm/bounds-of-functions/README.md)
     - [Examples](./performance-analysis-of-algorithm/bounds-of-functions/examples.md)
 - [Finding Complexity of an Algorithm](./performance-analysis-of-algorithm/finding-complexity-of-algorithm/README.md)
