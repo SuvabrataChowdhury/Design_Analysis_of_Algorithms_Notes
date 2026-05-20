@@ -43,7 +43,7 @@
     - [Little Notations]()
         - [Little 'Oh' $(\mathcal{o})$](./performance-analysis-of-algorithm/asymptotic-notation/little-notations/little-oh.md)
         - [Little 'Omega' $(\omega)$](./performance-analysis-of-algorithm/asymptotic-notation/little-notations/little-omega.md)
-- [Recurrence Relations]()
+- [Recurrence Relations](./performance-analysis-of-algorithm/recurrence-relations/README.md)
     - [Substitution Method]()
     - [Examples]()
 - [Finding Correct Bounds of Functions](./performance-analysis-of-algorithm/bounds-of-functions/README.md)
