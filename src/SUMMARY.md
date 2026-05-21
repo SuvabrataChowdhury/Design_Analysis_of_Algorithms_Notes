@@ -71,6 +71,7 @@
         - [Depth First Search (DFS) Traversal]()
         - [Breadth First Search (BFS) Traversal]()
     - [Heap](./useful-data-structures/non-linear/heap/README.md)
+        - [Operations of heap](./useful-data-structures/non-linear/heap/operations.md)
         - [Application: Heap Sort]()
     - [Disjoint Set]()
 
