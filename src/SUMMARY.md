@@ -67,12 +67,12 @@
         - [Application: Valid bracket sequence]()
     - [Queue]()
 - [Non-Linear Data Structures]()
-    - [Disjoint Set]()
     - [Graph]()
         - [Depth First Search (DFS) Traversal]()
         - [Breadth First Search (BFS) Traversal]()
-    - [Heap]()
+    - [Heap](./useful-data-structures/non-linear/heap/README.md)
         - [Application: Heap Sort]()
+    - [Disjoint Set]()
 
 # Algorithm Design strategies
 
