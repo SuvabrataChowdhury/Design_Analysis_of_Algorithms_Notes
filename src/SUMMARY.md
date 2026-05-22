@@ -67,12 +67,16 @@
         - [Application: Valid bracket sequence]()
     - [Queue]()
 - [Non-Linear Data Structures]()
+    - [Heap](./useful-data-structures/non-linear/heap/README.md)
+        - [Operations of heap](./useful-data-structures/non-linear/heap/operations/README.md)
+            - [Working example of Heapify, Insert and Delete]()
+            - [Complexity Analysis](./useful-data-structures/non-linear/heap/operations/complexity-analysis.md)
+        - [Application: Heap Sort]()
+            - [Complexity Analysis]()
     - [Disjoint Set]()
     - [Graph]()
         - [Depth First Search (DFS) Traversal]()
         - [Breadth First Search (BFS) Traversal]()
-    - [Heap]()
-        - [Application: Heap Sort]()
 
 # Algorithm Design strategies
 
