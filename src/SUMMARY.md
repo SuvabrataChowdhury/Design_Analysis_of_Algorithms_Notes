@@ -71,7 +71,7 @@
         - [Operations of heap](./useful-data-structures/non-linear/heap/operations/README.md)
             - [Working example of Heapify, Insert and Delete]()
             - [Complexity Analysis](./useful-data-structures/non-linear/heap/operations/complexity-analysis.md)
-        - [Application: Heap Sort]()
+        - [Application: Heap Sort](./useful-data-structures/non-linear/heap/applications/heap-sort/README.md)
             - [Complexity Analysis]()
     - [Disjoint Set]()
     - [Graph]()
