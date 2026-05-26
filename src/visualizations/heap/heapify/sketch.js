@@ -1,25 +1,4 @@
-heapArr = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7]
-
-class Position {
-  constructor(x, y) {
-    this.x = x;
-    this.y = y
-  }
-}
-
-class Node {
-  constructor(position, value, size) {
-    this.pos = position;
-    this.value = value;
-    this.size = size;
-  }
-
-  draw() {
-    circle(this.pos.x, this.pos.y, this.size);
-    text(this.value, this.pos.x, this.pos.y);
-    textAlign(CENTER, CENTER);
-  }
-}
+heapArr = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7, 5, 44, 67, 89, 90, 94, 99, 100, 110]
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -28,17 +7,33 @@ function setup() {
 function draw() {
   background(220);
 
-  element = heapArr[0];
+  let level, numItemsInLevel;
+  let dotPoses = [];
 
-  // node = circle(windowWidth/2, windowHeight/2, 20);
-  // node_txt = text(element, windowWidth/2, windowHeight/2);
+  for(let i = 0; i<heapArr.length; i++) {
+    level = Math.floor(Math.log2(i+1)); // determines the y value
+    numItemsInLevel = Math.pow(2,level);
 
-  // node2 = circle(windowWidth/2 - 20, windowHeight/2 + 20, 20);
-  // node2_txt = text(heapArr[1], node2.position().x , node2.position().y);
+    let numItemsTillLastLevel = Math.pow(2, level) - 1;
+    let indexInRow = i - numItemsTillLastLevel; // determines the x value
 
-  node = new Node(new Position(windowWidth/2, windowHeight/2), 4, 20);
-  node.draw();
+    y = windowHeight/2 + 80 * level;
+    x = windowWidth/2 + ((level === 0) ? 0 : (150 * (indexInRow - (numItemsInLevel-1)/2) * level/(numItemsInLevel - 1)));
 
-  node2 = new Node(new Position(windowWidth/2 - 20, windowHeight/2 + 20), 16, 20);
-  node2.draw();
+    circle(x, y, 20);
+
+    dotPoses.push({x,y});
+
+    if(i !== 0 ) {
+      parentX = dotPoses[Math.floor((i+1)/2) - 1].x;
+      parentY = dotPoses[Math.floor((i+1)/2) - 1].y;
+      line(x,y, parentX, parentY);
+    }
+  }
+
+  // console.log(dotPoses);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
