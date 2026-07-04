@@ -73,7 +73,7 @@
             - [Complexity Analysis](./useful-data-structures/non-linear/heap/operations/complexity-analysis.md)
         - [Application: Heap Sort](./useful-data-structures/non-linear/heap/applications/heap-sort/README.md) <!-- TODO: Add visualization of sorting here -->
             - [Complexity Analysis](./useful-data-structures/non-linear/heap/applications/heap-sort/complexity-analysis.md)
-    - [Disjoint Set]()
+    - [Disjoint Set](./useful-data-structures/non-linear/disjoint-set/README.md)
     - [Graph]()
         - [Depth First Search (DFS) Traversal]()
         - [Breadth First Search (BFS) Traversal]()
